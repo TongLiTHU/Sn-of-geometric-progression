@@ -29,6 +29,7 @@ else:
           a = a * q
           counter += 1
     
+print('\n') 
 str = "计算结果"
 print (str.center(80, '*'))
 print("首项为 %d 公比为 %d 的等比数列前 %d 项之和为: %d" % (b,q,n,sum)) #每个%d（十进制整数）对应后面一个数
